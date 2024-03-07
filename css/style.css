@@ -13,7 +13,7 @@
     --dark4: #89a7b1;
     --dark5: #cbdad5;
     --dark6: #2f2f46;
-    --cyan: #70e3ea;
+    --cyan: #00b7ff;
 }
 
 body {
@@ -168,15 +168,16 @@ ul {
     max-width: 600px;
 }
 
-footer{
+footer {
     padding: 3rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-footer > div{
+footer>div {
     justify-content: center;
     display: flex;
     gap: 2.3rem;
 }
+
