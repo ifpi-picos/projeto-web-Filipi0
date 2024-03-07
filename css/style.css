@@ -41,7 +41,7 @@ nav {
     flex-wrap: wrap;
 }
 
-.nav_link {
+.nav_link{
     color: var(--white);
     text-decoration: none;
     font-size: 1.2rem;
@@ -168,6 +168,17 @@ ul {
     max-width: 600px;
 }
 
+.section_4 ul{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: .3s;
+}
+
+.nav_link:hover {
+    color: var(--cyan);
+}
+
 footer {
     padding: 3rem;
     display: flex;
@@ -181,3 +192,11 @@ footer>div {
     gap: 2.3rem;
 }
 
+#meus-projetos a{
+    color: var(--dark4);
+    text-decoration: none;
+}
+
+#meus-projetos a:hover {
+    color: var(--cyan);
+}
