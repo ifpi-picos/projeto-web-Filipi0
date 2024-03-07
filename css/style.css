@@ -29,7 +29,7 @@ header {
     gap: 1rem;
     flex-wrap: wrap;
     padding: .8rem;
-    background-color: var(--dark6);
+    background-color: var(--dark1);
     min-height: 50px;
 }
 
@@ -46,7 +46,7 @@ nav {
     text-decoration: none;
     font-size: 1.2rem;
     transition: .3s;
-    
+
 }
 
 .nav_link:hover {
