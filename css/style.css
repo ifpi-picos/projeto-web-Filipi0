@@ -201,3 +201,10 @@ footer>div {
 #meus-projetos a:hover {
     color: var(--cyan);
 }
+
+footer>div a{
+    color: var(--white);
+    text-decoration: none;
+    transition: .3s;
+    font-size: 2rem;
+}
