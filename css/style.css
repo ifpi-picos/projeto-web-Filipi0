@@ -10,7 +10,7 @@
     --dark1: #34344e;
     --dark2: #3a415a;
     --dark4: #89a7b1;
-    --dark5: #cbdad5;
+    --dark5: #e0ede9;
     --dark6: #2f2f46;
     --cyan: #00ff88;
 }
@@ -45,7 +45,6 @@ nav {
     text-decoration: none;
     font-size: 1.2rem;
     transition: .3s;
-
 }
 
 .nav_link:hover {
@@ -127,7 +126,7 @@ ul {
 }
 
 .section_2 ul li {
-    color: var(--dark4);
+    color: var(--dark5);
     letter-spacing: 2px;
     font-weight: bold;
 }
@@ -193,7 +192,7 @@ footer>div {
 }
 
 #meus-projetos a{
-    color: var(--dark4);
+    color: var(--dark5);
     text-decoration: none;
 }
 
