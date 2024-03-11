@@ -9,7 +9,6 @@
     --white: #fff;
     --dark1: #34344e;
     --dark2: #3a415a;
-    --dark4: #89a7b1;
     --cinza3: #e0ede9;
     --cinza6: #2f2f46;
     --verde: #00ff88;
@@ -58,7 +57,7 @@ nav {
 }
 
 section {
-    padding: 2.5rem;
+    padding: 1.2rem;
 }
 
 .principal {
@@ -132,7 +131,7 @@ ul {
 }
 
 .section_2 ul li:hover {
-    color: var(--cinza3);
+    color: var(--verde);
     transition: .3s;
     cursor: default;
 }
