@@ -50,6 +50,10 @@ nav {
     color: var(--verde);
 }
 
+#burguer {
+    display: none;
+}
+
 .main {
     display: flex;
     flex-direction: column;
@@ -204,4 +208,22 @@ footer>div a{
     text-decoration: none;
     transition: .3s;
     font-size: 0.7rem;
+}
+
+@media screen and (max-width: 480px) {
+    #burguer {
+        color: var(--white);
+        display: block;
+        text-align: center;
+        padding: 5px;
+    }
+    
+    nav {
+        display: none;
+    }
+    #burguer:hover {
+        cursor: pointer;
+        color: var(--verde);
+    }
+    
 }
