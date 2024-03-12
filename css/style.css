@@ -43,7 +43,7 @@ nav {
     color: var(--white);
     text-decoration: none;
     font-size: 1.2rem;
-    transition: .3s;
+    transition: .5s;
 }
 
 .nav_link:hover {
@@ -132,7 +132,7 @@ ul {
 
 .section_2 ul li:hover {
     color: var(--verde);
-    transition: .3s;
+    transition: .5s;
     cursor: default;
 }
 
@@ -170,7 +170,7 @@ ul {
     color: white;
     text-decoration: none;
     font-size: 1.2rem;
-    transition: .3s;
+    transition: .5s;
 }
 
 .nav_link:hover {
