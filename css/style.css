@@ -211,6 +211,30 @@ footer>div a{
 }
 
 @media screen and (max-width: 550px) {
+
+    .principal {
+        display: flex;
+        justify-content: column;
+        gap: 2rem;
+        align-items: center;
+        min-height: 650px;
+    }
+    
+    .principal>div {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        min-height: 100px;
+    }
+    
+    h1 {
+        font-size: 3rem;
+        color: var(--white);
+        letter-spacing: 3px;
+        text-align: center;
+    }
+    
+
     #burguer {
         color: var(--white);
         display: block;
